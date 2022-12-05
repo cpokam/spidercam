@@ -19,6 +19,41 @@ using std::stringstream;
  * 
  * @param fileName : the file to be read
  */
+string IOData::getfileName() const
+{
+    return fileName;
+}
+
+int IOData::getVmax() const
+{
+    return vmax;
+}
+
+int IOData::getAmax() const
+{
+    return amax;
+}
+
+int IOData::getFreq() const
+{
+    return freq;
+}
+
+vector<array<double, 4> > IOData::getData() const
+{
+    return data;
+}
+
+array<double, 3> IOData::getDim() const
+{
+    return dim;
+}
+
+array<double, 3> IOData::getStart() const
+{
+    return start;
+}
+
 IOData::IOData(const string &fileName):
     fileName(fileName)
 {

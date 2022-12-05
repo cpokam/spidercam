@@ -1,14 +1,2 @@
-build/IHK_1.txt
-build/IHK_2.txt
-build/spidercam.exe
-build/CMakeFiles/spidercam.dir/compiler_depend.internal
-build/CMakeFiles/spidercam.dir/compiler_depend.make
-build/CMakeFiles/spidercam.dir/inputData.cpp.obj
-build/CMakeFiles/spidercam.dir/inputData.cpp.obj.d
-build/CMakeFiles/spidercam.dir/isimulation.cpp.obj
-build/CMakeFiles/spidercam.dir/isimulation.cpp.obj.d
-build/CMakeFiles/spidercam.dir/main.cpp.obj
-build/CMakeFiles/spidercam.dir/main.cpp.obj.d
-build/CMakeFiles/spidercam.dir/objects.a
-build/CMakeFiles/spidercam.dir/simulation.cpp.obj
-build/CMakeFiles/spidercam.dir/simulation.cpp.obj.d
+build/
+

@@ -28,6 +28,13 @@ int vmax{}, amax{}, freq{};
 vector<array<double,4>>data{};
 
 public:
+string getfileName()const;
+int getVmax()const;
+int getAmax()const;
+int getFreq()const;
+vector<array<double,4>>getData()const;
+array<double,3>getDim()const;
+array<double,3>getStart()const;
 explicit IOData(const string &fileName);
 vector<string> split(const string& s, char delimiter);
 void einlesen(const string &fileName);
