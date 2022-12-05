@@ -1,0 +1,22 @@
+[
+{
+  "directory": "D:/Matse/IHK/WS22/Spidercam/src/build",
+  "command": "C:\\SDK\\mingw64\\bin\\g++.exe  @CMakeFiles/spidercam.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\spidercam.dir\\inputData.cpp.obj -c D:\\Matse\\IHK\\WS22\\Spidercam\\src\\inputData.cpp",
+  "file": "D:/Matse/IHK/WS22/Spidercam/src/inputData.cpp"
+},
+{
+  "directory": "D:/Matse/IHK/WS22/Spidercam/src/build",
+  "command": "C:\\SDK\\mingw64\\bin\\g++.exe  @CMakeFiles/spidercam.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\spidercam.dir\\simulation.cpp.obj -c D:\\Matse\\IHK\\WS22\\Spidercam\\src\\simulation.cpp",
+  "file": "D:/Matse/IHK/WS22/Spidercam/src/simulation.cpp"
+},
+{
+  "directory": "D:/Matse/IHK/WS22/Spidercam/src/build",
+  "command": "C:\\SDK\\mingw64\\bin\\g++.exe  @CMakeFiles/spidercam.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\spidercam.dir\\isimulation.cpp.obj -c D:\\Matse\\IHK\\WS22\\Spidercam\\src\\isimulation.cpp",
+  "file": "D:/Matse/IHK/WS22/Spidercam/src/isimulation.cpp"
+},
+{
+  "directory": "D:/Matse/IHK/WS22/Spidercam/src/build",
+  "command": "C:\\SDK\\mingw64\\bin\\g++.exe  @CMakeFiles/spidercam.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\spidercam.dir\\main.cpp.obj -c D:\\Matse\\IHK\\WS22\\Spidercam\\src\\main.cpp",
+  "file": "D:/Matse/IHK/WS22/Spidercam/src/main.cpp"
+}
+]

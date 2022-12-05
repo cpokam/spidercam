@@ -1,0 +1,5 @@
+# ninja log v5
+3	493	1670039607211585400	CMakeFiles/spidercam.dir/main.cpp.o	f17e47ddc98db67
+2	659	1670073611081435400	CMakeFiles/spidercam.dir/inputData.cpp.o	d87b97ee7e08c49b
+2	856	1670039607574149400	CMakeFiles/spidercam.dir/simulation.cpp.o	1aa97842c9dd8278
+659	820	1670073611242684200	spidercam	80c79b0dbcc47ed7

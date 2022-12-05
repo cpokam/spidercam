@@ -1,0 +1,3 @@
+D:/Matse/IHK/WS22/Spidercam/src/build/CMakeFiles/spidercam.dir
+D:/Matse/IHK/WS22/Spidercam/src/build/CMakeFiles/edit_cache.dir
+D:/Matse/IHK/WS22/Spidercam/src/build/CMakeFiles/rebuild_cache.dir

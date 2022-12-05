@@ -1,0 +1,3 @@
+C:\SDK\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\spidercam.dir/objects.a
+C:\SDK\mingw64\bin\ar.exe qc CMakeFiles\spidercam.dir/objects.a @CMakeFiles\spidercam.dir\objects1.rsp
+C:\SDK\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\spidercam.dir/objects.a -Wl,--no-whole-archive -o spidercam.exe -Wl,--out-implib,libspidercam.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\spidercam.dir\linklibs.rsp
