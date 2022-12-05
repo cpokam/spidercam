@@ -8,10 +8,10 @@
 		},
 		"paths" : 
 		{
-			"cmake" : "C:/SDK/Qt/Tools/CMake_64/bin/cmake.exe",
-			"cpack" : "C:/SDK/Qt/Tools/CMake_64/bin/cpack.exe",
-			"ctest" : "C:/SDK/Qt/Tools/CMake_64/bin/ctest.exe",
-			"root" : "C:/SDK/Qt/Tools/CMake_64/share/cmake-3.24"
+			"cmake" : "D:/software/Qt/Tools/CMake_64/bin/cmake.exe",
+			"cpack" : "D:/software/Qt/Tools/CMake_64/bin/cpack.exe",
+			"ctest" : "D:/software/Qt/Tools/CMake_64/bin/ctest.exe",
+			"root" : "D:/software/Qt/Tools/CMake_64/share/cmake-3.24"
 		},
 		"version" : 
 		{
@@ -26,7 +26,7 @@
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-c003196f3e259264ffcf.json",
+			"jsonFile" : "codemodel-v2-3560462b753d2b624afe.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
@@ -35,7 +35,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-959b935f7953a637250f.json",
+			"jsonFile" : "cache-v2-fc9b0472e958cf13b388.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,7 +44,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-e77ea6d6e809de40fd74.json",
+			"jsonFile" : "cmakeFiles-v1-dc035567b7b0eac79cba.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -53,7 +53,7 @@
 			}
 		},
 		{
-			"jsonFile" : "toolchains-v1-4994d8a64994713757d3.json",
+			"jsonFile" : "toolchains-v1-fcc51af1d11df84c67d9.json",
 			"kind" : "toolchains",
 			"version" : 
 			{
@@ -90,7 +90,7 @@
 				"responses" : 
 				[
 					{
-						"jsonFile" : "cache-v2-959b935f7953a637250f.json",
+						"jsonFile" : "cache-v2-fc9b0472e958cf13b388.json",
 						"kind" : "cache",
 						"version" : 
 						{
@@ -99,7 +99,7 @@
 						}
 					},
 					{
-						"jsonFile" : "codemodel-v2-c003196f3e259264ffcf.json",
+						"jsonFile" : "codemodel-v2-3560462b753d2b624afe.json",
 						"kind" : "codemodel",
 						"version" : 
 						{
@@ -108,7 +108,7 @@
 						}
 					},
 					{
-						"jsonFile" : "toolchains-v1-4994d8a64994713757d3.json",
+						"jsonFile" : "toolchains-v1-fcc51af1d11df84c67d9.json",
 						"kind" : "toolchains",
 						"version" : 
 						{
@@ -117,7 +117,7 @@
 						}
 					},
 					{
-						"jsonFile" : "cmakeFiles-v1-e77ea6d6e809de40fd74.json",
+						"jsonFile" : "cmakeFiles-v1-dc035567b7b0eac79cba.json",
 						"kind" : "cmakeFiles",
 						"version" : 
 						{

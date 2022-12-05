@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\SDK\Qt\Tools\CMake_64\bin\cmake.exe
+CMAKE_COMMAND = D:\software\Qt\Tools\CMake_64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\SDK\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
+RM = D:\software\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Matse\IHK\WS22\Spidercam\src
+CMAKE_SOURCE_DIR = D:\Programming\IHK\WS22\Spidercam\src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Matse\IHK\WS22\Spidercam\src\build
+CMAKE_BINARY_DIR = D:\Programming\IHK\WS22\Spidercam\src\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/spidercam.dir/depend.make
@@ -70,63 +70,63 @@ include CMakeFiles/spidercam.dir/flags.make
 
 CMakeFiles/spidercam.dir/inputData.cpp.obj: CMakeFiles/spidercam.dir/flags.make
 CMakeFiles/spidercam.dir/inputData.cpp.obj: CMakeFiles/spidercam.dir/includes_CXX.rsp
-CMakeFiles/spidercam.dir/inputData.cpp.obj: D:/Matse/IHK/WS22/Spidercam/src/inputData.cpp
+CMakeFiles/spidercam.dir/inputData.cpp.obj: D:/Programming/IHK/WS22/Spidercam/src/inputData.cpp
 CMakeFiles/spidercam.dir/inputData.cpp.obj: CMakeFiles/spidercam.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Matse\IHK\WS22\Spidercam\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spidercam.dir/inputData.cpp.obj"
-	C:\SDK\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spidercam.dir/inputData.cpp.obj -MF CMakeFiles\spidercam.dir\inputData.cpp.obj.d -o CMakeFiles\spidercam.dir\inputData.cpp.obj -c D:\Matse\IHK\WS22\Spidercam\src\inputData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\IHK\WS22\Spidercam\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spidercam.dir/inputData.cpp.obj"
+	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spidercam.dir/inputData.cpp.obj -MF CMakeFiles\spidercam.dir\inputData.cpp.obj.d -o CMakeFiles\spidercam.dir\inputData.cpp.obj -c D:\Programming\IHK\WS22\Spidercam\src\inputData.cpp
 
 CMakeFiles/spidercam.dir/inputData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spidercam.dir/inputData.cpp.i"
-	C:\SDK\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Matse\IHK\WS22\Spidercam\src\inputData.cpp > CMakeFiles\spidercam.dir\inputData.cpp.i
+	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\IHK\WS22\Spidercam\src\inputData.cpp > CMakeFiles\spidercam.dir\inputData.cpp.i
 
 CMakeFiles/spidercam.dir/inputData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spidercam.dir/inputData.cpp.s"
-	C:\SDK\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Matse\IHK\WS22\Spidercam\src\inputData.cpp -o CMakeFiles\spidercam.dir\inputData.cpp.s
+	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\IHK\WS22\Spidercam\src\inputData.cpp -o CMakeFiles\spidercam.dir\inputData.cpp.s
 
 CMakeFiles/spidercam.dir/simulation.cpp.obj: CMakeFiles/spidercam.dir/flags.make
 CMakeFiles/spidercam.dir/simulation.cpp.obj: CMakeFiles/spidercam.dir/includes_CXX.rsp
-CMakeFiles/spidercam.dir/simulation.cpp.obj: D:/Matse/IHK/WS22/Spidercam/src/simulation.cpp
+CMakeFiles/spidercam.dir/simulation.cpp.obj: D:/Programming/IHK/WS22/Spidercam/src/simulation.cpp
 CMakeFiles/spidercam.dir/simulation.cpp.obj: CMakeFiles/spidercam.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Matse\IHK\WS22\Spidercam\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/spidercam.dir/simulation.cpp.obj"
-	C:\SDK\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spidercam.dir/simulation.cpp.obj -MF CMakeFiles\spidercam.dir\simulation.cpp.obj.d -o CMakeFiles\spidercam.dir\simulation.cpp.obj -c D:\Matse\IHK\WS22\Spidercam\src\simulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\IHK\WS22\Spidercam\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/spidercam.dir/simulation.cpp.obj"
+	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spidercam.dir/simulation.cpp.obj -MF CMakeFiles\spidercam.dir\simulation.cpp.obj.d -o CMakeFiles\spidercam.dir\simulation.cpp.obj -c D:\Programming\IHK\WS22\Spidercam\src\simulation.cpp
 
 CMakeFiles/spidercam.dir/simulation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spidercam.dir/simulation.cpp.i"
-	C:\SDK\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Matse\IHK\WS22\Spidercam\src\simulation.cpp > CMakeFiles\spidercam.dir\simulation.cpp.i
+	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\IHK\WS22\Spidercam\src\simulation.cpp > CMakeFiles\spidercam.dir\simulation.cpp.i
 
 CMakeFiles/spidercam.dir/simulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spidercam.dir/simulation.cpp.s"
-	C:\SDK\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Matse\IHK\WS22\Spidercam\src\simulation.cpp -o CMakeFiles\spidercam.dir\simulation.cpp.s
+	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\IHK\WS22\Spidercam\src\simulation.cpp -o CMakeFiles\spidercam.dir\simulation.cpp.s
 
 CMakeFiles/spidercam.dir/isimulation.cpp.obj: CMakeFiles/spidercam.dir/flags.make
 CMakeFiles/spidercam.dir/isimulation.cpp.obj: CMakeFiles/spidercam.dir/includes_CXX.rsp
-CMakeFiles/spidercam.dir/isimulation.cpp.obj: D:/Matse/IHK/WS22/Spidercam/src/isimulation.cpp
+CMakeFiles/spidercam.dir/isimulation.cpp.obj: D:/Programming/IHK/WS22/Spidercam/src/isimulation.cpp
 CMakeFiles/spidercam.dir/isimulation.cpp.obj: CMakeFiles/spidercam.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Matse\IHK\WS22\Spidercam\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/spidercam.dir/isimulation.cpp.obj"
-	C:\SDK\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spidercam.dir/isimulation.cpp.obj -MF CMakeFiles\spidercam.dir\isimulation.cpp.obj.d -o CMakeFiles\spidercam.dir\isimulation.cpp.obj -c D:\Matse\IHK\WS22\Spidercam\src\isimulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\IHK\WS22\Spidercam\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/spidercam.dir/isimulation.cpp.obj"
+	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spidercam.dir/isimulation.cpp.obj -MF CMakeFiles\spidercam.dir\isimulation.cpp.obj.d -o CMakeFiles\spidercam.dir\isimulation.cpp.obj -c D:\Programming\IHK\WS22\Spidercam\src\isimulation.cpp
 
 CMakeFiles/spidercam.dir/isimulation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spidercam.dir/isimulation.cpp.i"
-	C:\SDK\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Matse\IHK\WS22\Spidercam\src\isimulation.cpp > CMakeFiles\spidercam.dir\isimulation.cpp.i
+	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\IHK\WS22\Spidercam\src\isimulation.cpp > CMakeFiles\spidercam.dir\isimulation.cpp.i
 
 CMakeFiles/spidercam.dir/isimulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spidercam.dir/isimulation.cpp.s"
-	C:\SDK\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Matse\IHK\WS22\Spidercam\src\isimulation.cpp -o CMakeFiles\spidercam.dir\isimulation.cpp.s
+	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\IHK\WS22\Spidercam\src\isimulation.cpp -o CMakeFiles\spidercam.dir\isimulation.cpp.s
 
 CMakeFiles/spidercam.dir/main.cpp.obj: CMakeFiles/spidercam.dir/flags.make
 CMakeFiles/spidercam.dir/main.cpp.obj: CMakeFiles/spidercam.dir/includes_CXX.rsp
-CMakeFiles/spidercam.dir/main.cpp.obj: D:/Matse/IHK/WS22/Spidercam/src/main.cpp
+CMakeFiles/spidercam.dir/main.cpp.obj: D:/Programming/IHK/WS22/Spidercam/src/main.cpp
 CMakeFiles/spidercam.dir/main.cpp.obj: CMakeFiles/spidercam.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Matse\IHK\WS22\Spidercam\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/spidercam.dir/main.cpp.obj"
-	C:\SDK\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spidercam.dir/main.cpp.obj -MF CMakeFiles\spidercam.dir\main.cpp.obj.d -o CMakeFiles\spidercam.dir\main.cpp.obj -c D:\Matse\IHK\WS22\Spidercam\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\IHK\WS22\Spidercam\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/spidercam.dir/main.cpp.obj"
+	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spidercam.dir/main.cpp.obj -MF CMakeFiles\spidercam.dir\main.cpp.obj.d -o CMakeFiles\spidercam.dir\main.cpp.obj -c D:\Programming\IHK\WS22\Spidercam\src\main.cpp
 
 CMakeFiles/spidercam.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spidercam.dir/main.cpp.i"
-	C:\SDK\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Matse\IHK\WS22\Spidercam\src\main.cpp > CMakeFiles\spidercam.dir\main.cpp.i
+	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\IHK\WS22\Spidercam\src\main.cpp > CMakeFiles\spidercam.dir\main.cpp.i
 
 CMakeFiles/spidercam.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spidercam.dir/main.cpp.s"
-	C:\SDK\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Matse\IHK\WS22\Spidercam\src\main.cpp -o CMakeFiles\spidercam.dir\main.cpp.s
+	D:\software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\IHK\WS22\Spidercam\src\main.cpp -o CMakeFiles\spidercam.dir\main.cpp.s
 
 # Object files for target spidercam
 spidercam_OBJECTS = \
@@ -146,7 +146,7 @@ spidercam.exe: CMakeFiles/spidercam.dir/build.make
 spidercam.exe: CMakeFiles/spidercam.dir/linklibs.rsp
 spidercam.exe: CMakeFiles/spidercam.dir/objects1.rsp
 spidercam.exe: CMakeFiles/spidercam.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Matse\IHK\WS22\Spidercam\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable spidercam.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Programming\IHK\WS22\Spidercam\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable spidercam.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\spidercam.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,6 +158,6 @@ CMakeFiles/spidercam.dir/clean:
 .PHONY : CMakeFiles/spidercam.dir/clean
 
 CMakeFiles/spidercam.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Matse\IHK\WS22\Spidercam\src D:\Matse\IHK\WS22\Spidercam\src D:\Matse\IHK\WS22\Spidercam\src\build D:\Matse\IHK\WS22\Spidercam\src\build D:\Matse\IHK\WS22\Spidercam\src\build\CMakeFiles\spidercam.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Programming\IHK\WS22\Spidercam\src D:\Programming\IHK\WS22\Spidercam\src D:\Programming\IHK\WS22\Spidercam\src\build D:\Programming\IHK\WS22\Spidercam\src\build D:\Programming\IHK\WS22\Spidercam\src\build\CMakeFiles\spidercam.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/spidercam.dir/depend
 

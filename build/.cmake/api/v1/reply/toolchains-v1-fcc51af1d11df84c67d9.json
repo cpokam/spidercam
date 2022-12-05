@@ -10,17 +10,17 @@
 				{
 					"includeDirectories" : 
 					[
-						"C:/SDK/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include",
-						"C:/SDK/mingw64/include",
-						"C:/SDK/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed",
-						"C:/SDK/mingw64/x86_64-w64-mingw32/include"
+						"D:/software/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include",
+						"D:/software/mingw64/include",
+						"D:/software/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed",
+						"D:/software/mingw64/x86_64-w64-mingw32/include"
 					],
 					"linkDirectories" : 
 					[
-						"C:/SDK/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0",
-						"C:/SDK/mingw64/lib/gcc",
-						"C:/SDK/mingw64/x86_64-w64-mingw32/lib",
-						"C:/SDK/mingw64/lib"
+						"D:/software/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0",
+						"D:/software/mingw64/lib/gcc",
+						"D:/software/mingw64/x86_64-w64-mingw32/lib",
+						"D:/software/mingw64/lib"
 					],
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : 
@@ -42,7 +42,7 @@
 						"kernel32"
 					]
 				},
-				"path" : "C:/SDK/mingw64/bin/gcc.exe",
+				"path" : "D:/software/mingw64/bin/gcc.exe",
 				"version" : "12.2.0"
 			},
 			"language" : "C",
@@ -60,20 +60,20 @@
 				{
 					"includeDirectories" : 
 					[
-						"C:/SDK/mingw64/include/c++/12.2.0",
-						"C:/SDK/mingw64/include/c++/12.2.0/x86_64-w64-mingw32",
-						"C:/SDK/mingw64/include/c++/12.2.0/backward",
-						"C:/SDK/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include",
-						"C:/SDK/mingw64/include",
-						"C:/SDK/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed",
-						"C:/SDK/mingw64/x86_64-w64-mingw32/include"
+						"D:/software/mingw64/include/c++/12.2.0",
+						"D:/software/mingw64/include/c++/12.2.0/x86_64-w64-mingw32",
+						"D:/software/mingw64/include/c++/12.2.0/backward",
+						"D:/software/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include",
+						"D:/software/mingw64/include",
+						"D:/software/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed",
+						"D:/software/mingw64/x86_64-w64-mingw32/include"
 					],
 					"linkDirectories" : 
 					[
-						"C:/SDK/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0",
-						"C:/SDK/mingw64/lib/gcc",
-						"C:/SDK/mingw64/x86_64-w64-mingw32/lib",
-						"C:/SDK/mingw64/lib"
+						"D:/software/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0",
+						"D:/software/mingw64/lib/gcc",
+						"D:/software/mingw64/x86_64-w64-mingw32/lib",
+						"D:/software/mingw64/lib"
 					],
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : 
@@ -98,7 +98,7 @@
 						"kernel32"
 					]
 				},
-				"path" : "C:/SDK/mingw64/bin/g++.exe",
+				"path" : "D:/software/mingw64/bin/g++.exe",
 				"version" : "12.2.0"
 			},
 			"language" : "CXX",
@@ -121,7 +121,7 @@
 			"compiler" : 
 			{
 				"implicit" : {},
-				"path" : "C:/SDK/cygwin64/bin/windres.exe"
+				"path" : "D:/software/Qt/Tools/mingw530_32/bin/windres.exe"
 			},
 			"language" : "RC",
 			"sourceFileExtensions" : 
