@@ -64,7 +64,7 @@ void IOData::insertInstruction(int i,array<double, 4>instruction)
     instructions.insert(instructions.begin()+i, instruction);
 }
 
-int IOData::getInstructionsSize()
+int IOData::getInstructionsSize()const
 {
     return instructions.size();
 }

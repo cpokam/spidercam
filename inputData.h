@@ -37,10 +37,11 @@ double& setInstruction(int i, int j);
 array<double,4>getInstruction(int i)const;
 array<double,4>& setInstruction(int i);
 void insertInstruction(int i, array<double, 4>instruction);
-int getInstructionsSize();
+int getInstructionsSize()const;
 
 array<double,3>getDim()const;
 array<double,3>getStart()const;
+
 vector<string> split(const string& s, char delimiter);
 void einlesen(const string &fileName);
 std::string process(std::string const& s);
