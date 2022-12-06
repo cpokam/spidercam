@@ -39,6 +39,36 @@ int IOData::getFreq() const
     return freq;
 }
 
+double IOData::getInstruction(int i, int j) const
+{
+    return instructions.at(i).at(j);
+}
+
+double& IOData::setInstruction(int i, int j)
+{
+    return instructions.at(i).at(j);
+}
+
+array<double, 4> IOData::getInstruction(int i) const
+{
+    return instructions.at(i);
+}
+
+array<double, 4> &IOData::setInstruction(int i)
+{
+    return instructions.at(i);
+}
+
+void IOData::insertInstruction(int i,array<double, 4>instruction)
+{
+    instructions.insert(instructions.begin()+i, instruction);
+}
+
+int IOData::getInstructionsSize()
+{
+    return instructions.size();
+}
+
 array<double, 3> IOData::getDim() const
 {
     return dim;
@@ -82,7 +112,7 @@ void IOData::init(const vector<string> &dataVector){
             for(size_t i =0; i<dataVector.size(); i++){
                 lineData[i]=std::stod(dataVector.at(i));
             }
-            data.push_back(lineData);
+            instructions.push_back(lineData);
         }
     }
     catch (const std::out_of_range& oor) {

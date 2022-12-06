@@ -31,22 +31,22 @@ void Simulation::simulate()
  */
 void Simulation::executeCommand(int i)
 {
-    if ((size_t)i >= iodata.data.size()-1)
+    if ((size_t)i >= iodata.getInstructionsSize()-1)
         return;
     try
     {
         init(i);
-        currentStartTime = iodata.data.at(i)[0];
+        currentStartTime = iodata.getInstruction(i,0);
         calculateStagesVector(i);
         currentExecutionTime = t_c;
-        nextStartTime = iodata.data.at(i + 1)[0];
+        nextStartTime = iodata.getInstruction(i+1,0);
         if (nextStartTime == 0 || (currentStartTime + currentExecutionTime < nextStartTime))
         {
             std::cout << "command " << i <<" succeeds" << std::endl;
             std::cout << "from: " << std::endl;
-            commandToString(iodata.data.at(i));
+            commandToString(iodata.getInstruction(i));
             std::cout << "to : " << std::endl;
-            commandToString(iodata.data.at(i + 1));
+            commandToString(iodata.getInstruction(i + 1));
             std::cout << "execution time: " << t_c << " seconds" << std::endl;
             calculateStagesVector(i);
             std::cout << "StageVector: "<<std::endl;
@@ -67,9 +67,9 @@ void Simulation::executeCommand(int i)
         {
             std::cout << "command " << i <<" failed!" << std::endl;
             std::cout << "from: " << std::endl;
-            commandToString(iodata.data.at(i));
+            commandToString(iodata.getInstruction(i));
             std::cout << "to : " << std::endl;
-            commandToString(iodata.data.at(i + 1));
+            commandToString(iodata.getInstruction(i + 1));
             std::cout << "command needs " << t_c << " seconds for the execution" << std::endl;
             double cameraStopTime = currentStartTime + (nextStartTime - currentStartTime) +
                                      currentVelocity(i, nextStartTime - currentStartTime) / iodata.getAmax();
@@ -82,9 +82,9 @@ void Simulation::executeCommand(int i)
             pointToString(stagesVector);
             std::cout<<std::endl;
 
-            if ((size_t)i + 2 < iodata.data.size() - 1 && cameraStopTime > iodata.data.at(i + 2)[0])
+            if ((size_t)i + 2 < iodata.getInstructionsSize() - 1 && cameraStopTime > iodata.getInstruction(i+2,0))
             {
-                iodata.data.at(i + 2)[0] = cameraStopTime;
+                iodata.setInstruction(i+2,0) = cameraStopTime;
                 i += 2;
                 executeCommand(i);
             }

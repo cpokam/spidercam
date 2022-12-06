@@ -214,9 +214,9 @@ double ISimulation::calculateCurrentDelta(int i)
  */
 void ISimulation::init(int i)
 {
-    currentStartPoint = {iodata.data[i][1], iodata.data[i][2], iodata.data[i][3]};
-    if ((size_t)i < iodata.data.size() - 1)
-        currentEndPoint = {iodata.data[i + 1][1], iodata.data[i + 1][2], iodata.data[i + 1][3]};
+    currentStartPoint = {iodata.getInstruction(i,1), iodata.getInstruction(i,2), iodata.getInstruction(i,3)};
+    if ((size_t)i < iodata.getInstructionsSize() - 1)
+        currentEndPoint = {iodata.getInstruction(i+1,1), iodata.getInstruction(i+1,2), iodata.getInstruction(i+1,3)};
 }
 /**
  * @brief Simulation::init Initialization of some constants
@@ -226,7 +226,7 @@ void ISimulation::init()
     t_a = iodata.getVmax() / iodata.getAmax();
     t_b = t_c = st_a = 0;
     array<double, 4> startCommand = {0, iodata.getStart()[0], iodata.getStart()[1], iodata.getStart()[2]};
-    iodata.data.insert(iodata.data.begin(), startCommand);
+    iodata.insertInstruction(0, startCommand);
     anchoragePoint_R1 = {0, 0, iodata.getDim().at(2)};
     anchoragePoint_R2 = {iodata.getDim().at(0), 0, iodata.getDim().at(2)};
     anchoragePoint_R3 = {0, iodata.getDim().at(1), iodata.getDim().at(2)};
