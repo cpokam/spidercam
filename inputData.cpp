@@ -19,7 +19,7 @@ using std::stringstream;
  * 
  * @param fileName : the file to be read
  */
-string IOData::getfileName() const
+string IOData::getFileName() const
 {
     return fileName;
 }
@@ -37,11 +37,6 @@ int IOData::getAmax() const
 int IOData::getFreq() const
 {
     return freq;
-}
-
-vector<array<double, 4> > IOData::getData() const
-{
-    return data;
 }
 
 array<double, 3> IOData::getDim() const
@@ -72,7 +67,7 @@ void IOData::init(const vector<string> &dataVector){
 
         for(size_t i =1; i<dataVector.size(); i++){
             if (dataVector.at(0)=="dim")
-                dim[i-1]=std::stoi(dataVector.at(i));
+                dim[i-1]=std::stoi(dataVector.at(i));//at(i)
             else if (dataVector.at(0)=="start")
                 start[i-1]=std::stoi(dataVector.at(i));
             else if (dataVector.at(0)=="vmax")
@@ -91,7 +86,7 @@ void IOData::init(const vector<string> &dataVector){
         }
     }
     catch (const std::out_of_range& oor) {
-        std::cerr << "Out of Range error: " << oor.what() << '\n';
+        std::cerr << "Out of Range error:" << oor.what() << '\n';
     }
 }
 

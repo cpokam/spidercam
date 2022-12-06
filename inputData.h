@@ -18,21 +18,22 @@ using std::vector;
 */
 class IOData {
 
-friend class Simulation;
-friend class ISimulation;
+//friend class Simulation;
+//friend class ISimulation;
 
 string fileName;
 array<double,3>dim{};
 array<double,3>start{};
 int vmax{}, amax{}, freq{};
-vector<array<double,4>>data{};
 
 public:
-string getfileName()const;
+string getFileName()const;
+vector<array<double,4>>data{};
 int getVmax()const;
 int getAmax()const;
 int getFreq()const;
-vector<array<double,4>>getData()const;
+//double getData(int i, int j)const;
+//double& setData(int i, int j);
 array<double,3>getDim()const;
 array<double,3>getStart()const;
 explicit IOData(const string &fileName);

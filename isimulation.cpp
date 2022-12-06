@@ -25,9 +25,9 @@ ISimulation::ISimulation(const string &fileName_) :
  */
 void ISimulation::calculateStagesVector(int i)
 {
-    t_a = iodata.vmax / iodata.amax;
-    st_a = (iodata.amax / 2) * pow(t_a, 2);
-    t_b = t_a + ((calculateCurrentDelta(i) - 2 * st_a) / iodata.vmax);
+    t_a = iodata.getVmax() / iodata.getAmax();
+    st_a = (iodata.getAmax() / 2) * pow(t_a, 2);
+    t_b = t_a + ((calculateCurrentDelta(i) - 2 * st_a) / iodata.getVmax());
     t_c = t_a + t_b;
     stagesVector = {t_a, t_b, t_c};
 }
@@ -43,11 +43,11 @@ double ISimulation::calculateS_t(int i, double t)
     calculateStagesVector(i);
     double result{};
     if ((0 <= t) && (t <= t_a))
-        result = (iodata.amax / 2) * pow(t, 2);
+        result = (iodata.getAmax() / 2) * pow(t, 2);
     else if ((t_a <= t) && (t <= t_b))
-        result = st_a + iodata.vmax * (t - t_a);
+        result = st_a + iodata.getVmax() * (t - t_a);
     else if ((t_b <= t) && (t <= t_c))
-        result = calculateCurrentDelta(i) - ((iodata.amax / 2) * (pow((t - t_c), 2)));
+        result = calculateCurrentDelta(i) - ((iodata.getAmax() / 2) * (pow((t - t_c), 2)));
 
     return result;
 }
@@ -72,8 +72,8 @@ void ISimulation::calculateTimeIntervals(int i)
 {
     calculateStagesVector(i);
     timeIntervals.clear();
-    for (int j = 0; j <= std::floor(t_c * iodata.freq); j++)
-        timeIntervals.push_back((float)j / iodata.freq);
+    for (int j = 0; j <= std::floor(t_c * iodata.getFreq()); j++)
+        timeIntervals.push_back((float)j / iodata.getFreq());
 }
 
 /**
@@ -87,11 +87,11 @@ double ISimulation::currentVelocity(int i, double t)
     init(i);
     double result;
     if (0 <= t && t <= t_a)
-        result = iodata.amax * t;
+        result = iodata.getAmax() * t;
     else if (t_a < t && t < t_b)
-        result = iodata.vmax;
+        result = iodata.getVmax();
     else
-        result = (iodata.vmax - iodata.amax) * (t - t_a);
+        result = (iodata.getVmax() - iodata.getAmax()) * (t - t_a);
 
     return result;
 }
@@ -223,14 +223,14 @@ void ISimulation::init(int i)
  */
 void ISimulation::init()
 {
-    t_a = iodata.vmax / iodata.amax;
+    t_a = iodata.getVmax() / iodata.getAmax();
     t_b = t_c = st_a = 0;
-    array<double, 4> startCommand = {0, iodata.start[0], iodata.start[1], iodata.start[2]};
+    array<double, 4> startCommand = {0, iodata.getStart()[0], iodata.getStart()[1], iodata.getStart()[2]};
     iodata.data.insert(iodata.data.begin(), startCommand);
-    anchoragePoint_R1 = {0, 0, iodata.dim.at(2)};
-    anchoragePoint_R2 = {iodata.dim.at(0), 0, iodata.dim.at(2)};
-    anchoragePoint_R3 = {0, iodata.dim.at(1), iodata.dim.at(2)};
-    anchoragePoint_R4 = {iodata.dim.at(0), iodata.dim.at(1), iodata.dim.at(2)};
+    anchoragePoint_R1 = {0, 0, iodata.getDim().at(2)};
+    anchoragePoint_R2 = {iodata.getDim().at(0), 0, iodata.getDim().at(2)};
+    anchoragePoint_R3 = {0, iodata.getDim().at(1), iodata.getDim().at(2)};
+    anchoragePoint_R4 = {iodata.getDim().at(0), iodata.getDim().at(1), iodata.getDim().at(2)};
 }
 
 /**

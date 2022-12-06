@@ -72,7 +72,7 @@ void Simulation::executeCommand(int i)
             commandToString(iodata.data.at(i + 1));
             std::cout << "command needs " << t_c << " seconds for the execution" << std::endl;
             double cameraStopTime = currentStartTime + (nextStartTime - currentStartTime) +
-                                     currentVelocity(i, nextStartTime - currentStartTime) / iodata.amax;
+                                     currentVelocity(i, nextStartTime - currentStartTime) / iodata.getAmax();
             std::cout << "camera stopped at " << cameraStopTime<<"s";
             //calculateCurrentCameraPosition(i,cameraStopTime);
             //pointToString(currentPosition);
